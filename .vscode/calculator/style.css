@@ -32,3 +32,30 @@
     display: grid;
     place-items: center;
 }
+#calculate{
+    background-color: blue;
+    color: white;
+    
+}
+#reset{
+    background-color: blueviolet;
+    color:white;
+}
+
+.choice{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#result {
+    margin-top: 4px;
+    margin-left: 42px;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    min-height: 25px; 
+    text-align: center;
+    font-weight: bold;
+    width: 70%;
+    background-color: #f0f0f0;
+}

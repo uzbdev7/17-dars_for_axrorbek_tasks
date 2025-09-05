@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        
+        <div class="result" id="result">Result</div>
+        <div class="Form">
+            <form class="myForm">
+                <label>Number 1:</label>
+                <input type="number"  min="-500" max="500" step="1" id="firstNumber" placeholder="Enter first Number..">
+
+                <label>Number 2:</label>
+                <input type ="number" min="-500" max="500" step="1" id="secondNumber" placeholder="Enter second Number">
+                
+               <label for="choice">Operators</label>
+                <select id="choice">
+                    <option value="" selected disabled>  Choose your option  </option>
+                    <option id="add">Qoshish (+)</option>
+                    <option id="minus">Ayirish (-)</option>
+                    <option id="multiply">Ko'paytirish (*)</option>
+                    <option id="divide">Bo'lish (/)</option>
+                </select>
+
+                <button type="submit" id="calculate">Calculate</button>
+                <button type="reset" id="reset">reset</button>
+
+            </form>
+        </div>
+    </div>
+    <script src="button.js"></script>
+</body>
+</html>

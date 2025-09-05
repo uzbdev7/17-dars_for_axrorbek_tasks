@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 300px;
+}
+.count{
+    padding:5px;
+    display: inline-block;
+    border: 1px solid black;
+    width: 80px;
+    margin-left: 47%;
+    margin-bottom: 5px;
+    background-color: rgb(237, 201, 110)
+}
+.click button{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(138, 173, 225);
+   
+}
+.click button minus{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(138, 173, 225);
+   
+}
